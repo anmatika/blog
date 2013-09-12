@@ -11,3 +11,19 @@
  *= require_self
  *= require_tree .
  */
+nav{
+	float: left;
+}
+#wrapper{
+	margin: 0 auto;
+	width: 1200px;
+	text-align: left;
+	background-color: #fff;
+}
+#main{
+float: left;
+width: 930px;
+min-height: 500px;
+text-align: left;
+margin-right: 10px;
+}
