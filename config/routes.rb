@@ -3,6 +3,7 @@ Blog::Application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
+   resources :guestbook
   # You can have the root of your site routed with "root"
    root 'home#index'
 
@@ -14,7 +15,6 @@ Blog::Application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-
   # Example resource route with options:
   #   resources :products do
   #     member do
