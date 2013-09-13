@@ -13,17 +13,22 @@
  */
 nav{
 	float: left;
+	background-color: green;
 }
 #wrapper{
 	margin: 0 auto;
 	width: 1200px;
+	height: 800px;
 	text-align: left;
-	background-color: #fff;
+	background-color: gray;
+	
 }
 #main{
-float: left;
-width: 930px;
-min-height: 500px;
-text-align: left;
-margin-right: 10px;
+	float: left;
+	width: 930px;
+	min-height: 500px;
+	text-align: left;
+	margin-right: 10px;
+	background-color: yellow;
+	
 }
