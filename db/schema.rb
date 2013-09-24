@@ -11,18 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130915102145) do
+ActiveRecord::Schema.define(version: 20130924163747) do
 
-  create_table "guestbookmessages", force: true do |t|
+  create_table "guestbooks", force: true do |t|
     t.string   "message"
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "guestbooks", force: true do |t|
-    t.string   "message"
-    t.string   "name"
+  create_table "posts", force: true do |t|
+    t.string   "title"
+    t.string   "body"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
