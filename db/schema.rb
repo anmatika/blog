@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130924163747) do
+ActiveRecord::Schema.define(version: 20131222082258) do
 
   create_table "guestbooks", force: true do |t|
     t.string   "message"
@@ -25,6 +25,15 @@ ActiveRecord::Schema.define(version: 20130924163747) do
     t.string   "body"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "products", force: true do |t|
+    t.decimal  "price"
+    t.integer  "in_stock_count"
+    t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.binary   "image"
   end
 
 end
