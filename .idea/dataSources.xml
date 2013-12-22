@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2818812184">
+    <data-source source="LOCAL" name="Rails blog: development" uuid="736e1065-f1ec-431a-b8aa-d00ff57fa55b">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:blog</jdbc-url>
+      <user-name>antti</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails blog: test" uuid="fedcf5b9-5711-4513-b538-32491966924a">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:blog</jdbc-url>
+      <user-name>antti</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails blog: production" uuid="1debde85-819a-4c1a-82f8-bc8e7139ef90">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:blog</jdbc-url>
+      <user-name>antti</user-name>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
