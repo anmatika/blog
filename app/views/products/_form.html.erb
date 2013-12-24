@@ -25,7 +25,7 @@
   </div>
     <div class="field">
       <%= f.label :image %><br>
-      <%= f.button "Upload image...", {type: 'button', id: 'uploadImage', name: 'UploadImage'}  %>
+      <%= f.file_field :image %>
    </div>
   <div class="actions">
     <%= f.submit %>

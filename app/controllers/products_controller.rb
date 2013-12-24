@@ -26,13 +26,10 @@ class ProductsController < ApplicationController
   def create
     @product = Product.new(product_params)
 
-    name = params[:product][:image].original_filename
-    directory = "public/images/upload"
-    path = File.join(directory, name)
-    File.open(path, "wb") { |f| f.write(params[:product][:image].read) }
-    flash[:notice] = "File uploaded"
-
-
+    #save image to server path
+    if @product.save_image (params[:product][:image])
+      flash[:notice] = "File uploaded"
+    end
 
     respond_to do |format|
       if @product.save
