@@ -26,11 +26,6 @@ class ProductsController < ApplicationController
   def create
     @product = Product.new(product_params)
 
-    #save image to server path
-    if @product.save_image (params[:product][:image])
-      flash[:notice] = "File uploaded"
-    end
-
     respond_to do |format|
       if @product.save
         format.html { redirect_to @product, notice: 'Product was successfully created.' }
@@ -39,6 +34,12 @@ class ProductsController < ApplicationController
         format.html { render action: 'new' }
         format.json { render json: @product.errors, status: :unprocessable_entity }
       end
+
+      #save image to server path
+      if @product.save_image (params[:product][:image])
+        flash[:notice] = "File uploaded"
+      end
+
     end
   end
 
