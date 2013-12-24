@@ -39,7 +39,6 @@ class ProductsController < ApplicationController
       if @product.save_image (params[:product][:image])
         flash[:notice] = "File uploaded"
       end
-
     end
   end
 
