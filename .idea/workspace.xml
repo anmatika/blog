@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e93582-7058-43d4-b6f5-e91599883f71" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/product.rb" afterPath="$PROJECT_DIR$/app/models/product.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/products_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/upload/images.jpeg7" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/upload/images.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/upload/images.jpegproduct_8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/upload/product_9_images.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131224131017_remove_image_from_products.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131224131835_add_image_path_to_products.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/antti.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
@@ -557,7 +561,11 @@
       <created>1387873273780</created>
       <updated>1387873273780</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: antti &lt;antti@antti-asus.(none)&gt;&#10;#&#10;# On branch master&#10;# Changes to be committed:&#10;#   (use &quot;git reset HEAD &lt;file&gt;...&quot; to unstage)&#10;#&#10;&#9;modified:   .idea/.rakeTasks&#10;&#9;modified:   .idea/blog.iml&#10;&#9;modified:   .idea/workspace.xml&#10;&#9;modified:   app/views/layouts/application.html.erb&#10;#&#10;">
+      <created>1387891155191</created>
+      <updated>1387891155191</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
