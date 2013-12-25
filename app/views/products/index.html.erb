@@ -19,7 +19,7 @@
         <td><%= product.price %></td>
         <td><%= product.in_stock_count %></td>
         <td><%= product.description %></td>
-        <td><%= product.image_name %></td>
+        <td><%= image_tag(asset_path product.image_name) %></td>
         <td><%= link_to 'Show', product %></td>
         <td><%= link_to 'Edit', edit_product_path(product) %></td>
         <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>

@@ -27,9 +27,7 @@ class ProductsController < ApplicationController
     @product = Product.new(product_params)
 
     #save image to server path
-    if @product.save_image (params[:product][:image])
-      flash[:notice] = "File uploaded"
-    end
+    @product.save_image (params[:product][:image])
 
     respond_to do |format|
       if @product.save
