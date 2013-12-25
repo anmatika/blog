@@ -1,8 +1,4 @@
 class Product < ActiveRecord::Base
-  def image_path
-    "public/images" + self.image_name
-  end
-
   def save_image (image)
     name = DateTime.now.to_i.to_s + '_' + image.original_filename
     directory = Rails.root + "app/assets/images"
