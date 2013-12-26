@@ -137,6 +137,7 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.0.0, RVM: ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.6.3, RVM: ruby-2.0.0-p353) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="colorbox-rails (v0.1.0, RVM: ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.0.1, RVM: ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, RVM: ruby-2.0.0-p353) [gem]" level="application" />
@@ -158,7 +159,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.12.2, RVM: ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rmagick (v2.13.2, RVM: ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.13, RVM: ruby-2.0.0-p353) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sass-rails (v4.0.0, RVM: ruby-2.0.0-p353) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sass-rails (v4.0.1, RVM: ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.3.20, RVM: ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.10.0, RVM: ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v2.0.0, RVM: ruby-2.0.0-p353) [gem]" level="application" />

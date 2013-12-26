@@ -33,7 +33,7 @@ group :doc do
 end
 
 gem 'rmagick', '2.13.2'
-
+gem "colorbox-rails", "~> 0.1.0"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

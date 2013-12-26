@@ -2,7 +2,10 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 $ ->
+  $('.imagePic').colorbox()
   $('.imageThumb').click ->
-    #alert('fasdfsd')
-  #$('.imageThumb').hover ->
-   # $(this).addClass('hand')
+
+
+
+
+
