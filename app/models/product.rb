@@ -1,6 +1,8 @@
 class Product < ActiveRecord::Base
   require 'RMagick'
   def save_image (image)
+    return if image.nil?
+
     name = DateTime.now.to_i.to_s + '_' + image.original_filename
     directory = Rails.root + "app/assets/images"
     path = File.join(directory, name)
