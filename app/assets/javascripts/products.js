@@ -1,5 +1,5 @@
 (function($){
-  $('.imagePic').colorbox();
+  $('.imageThumb').colorbox();
 }(jQuery));
 
 
