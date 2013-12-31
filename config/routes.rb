@@ -1,8 +1,12 @@
 Blog::Application.routes.draw do
-  resources :products
+  resources :baskets
 
+  resources :products do
+    collection do
+      post 'addtobasket'
+    end
+  end
   resources :posts
-
   resources :guestbooks
 
   get "home/index"
