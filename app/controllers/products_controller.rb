@@ -70,6 +70,7 @@ class ProductsController < ApplicationController
   def addtobasket
     respond_to do |format|
       format.js
+      format.json { render :json => "jaa", :status => :unprocessable_entity }
     end
   end
 
