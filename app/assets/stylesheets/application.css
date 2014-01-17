@@ -12,6 +12,7 @@
  *= require_tree .
  *= require jquery.dataTables
  *= require colorbox
+ *= require bootstrap
  */
 nav{
 	float: left;

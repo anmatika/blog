@@ -16,4 +16,5 @@
 
 //= require jquery.colorbox
 //= require turbolinks
+//= require bootstrap
 //= require_tree .
