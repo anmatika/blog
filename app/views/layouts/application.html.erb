@@ -2,28 +2,44 @@
 <html>
 <head>
   <title>Blog</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 <div id='wrapper'>
-<header>
- Blog
-</header>
-<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-  <div class="collapse navbar-collapse">
-    <ul class="nav navbar-nav">
-      <li class="active"><%= link_to 'Home', root_path %><span class="glyphicon glyphicon-home"></span></li>
-      <li><%= link_to 'Guest book', guestbooks_path %><span class="glyphicon glyphicon-phone-alt"></span></li>
-      <li><%= link_to 'Posts', posts_path %><span class="glyphicon glyphicon-phone-alt"></span></li>
-      <li><%= link_to 'Products', products_path %><span class="glyphicon glyphicon-phone-alt"></span></li>
-    </ul>
-  </div><!-- /.nav-collapse -->
-</nav>
-<div id='main'>
-	<%= yield %>
+  <header>
+    Blog
+  </header>
+  <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <%= link_to root_path do %>
+              <span class="glyphicon glyphicon-home">Home</span>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to guestbooks_path do %>
+              <span class="glyphicon glyphicon-phone-alt">Guestbook</span>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to posts_path do %>
+              <span class="glyphicon glyphicon-phone-alt">Posts</span>
+          <% end %>
+        </li>
+        <li><%= link_to products_path do %>
+              <span class="glyphicon glyphicon-phone-alt">Products</span>
+          <% end %>
+        </li>
+      </ul>
+    </div>
+    <!-- /.nav-collapse -->
+  </nav>
+  <div id='main'>
+    <%= yield %>
+  </div>
 </div>
-</div>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 </body>
 </html>
