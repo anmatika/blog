@@ -13,6 +13,7 @@
  *= require jquery.dataTables
  *= require colorbox
  *= require bootstrap
+ *= require offcanvas
  */
 nav{
 	float: left;

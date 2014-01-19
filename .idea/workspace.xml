@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e93582-7058-43d4-b6f5-e91599883f71" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -50,7 +51,7 @@
       <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="20" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="1196">
+            <state line="15" column="21" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="1219">
               <folding />
             </state>
           </provider>
@@ -77,7 +78,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="13" selection-start="692" selection-end="692" vertical-scroll-proportion="0.30110496" vertical-offset="420" max-vertical-offset="1173">
+            <state line="1" column="0" selection-start="16" selection-end="23" vertical-scroll-proportion="0.063535914" vertical-offset="0" max-vertical-offset="2300">
               <folding />
             </state>
           </provider>
@@ -86,7 +87,7 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2281" column="0" selection-start="43500" selection-end="43500" vertical-scroll-proportion="0.0" vertical-offset="52267" max-vertical-offset="137402">
+            <state line="7683" column="1" selection-start="139178" selection-end="139178" vertical-scroll-proportion="0.0" vertical-offset="176374" max-vertical-offset="176847">
               <folding />
             </state>
           </provider>
@@ -512,6 +513,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="baskets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -630,11 +653,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-      </pane>
       <pane id="RailsProjectView">
         <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
       </pane>
     </panes>
   </component>
@@ -1105,7 +1128,11 @@
       <created>1389940874787</created>
       <updated>1389940874787</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: antti &lt;antti@antti-asus.(none)&gt;&#10;#&#10;# On branch master&#10;# Changes to be committed:&#10;#   (use &quot;git reset HEAD &lt;file&gt;...&quot; to unstage)&#10;#&#10;&#9;modified:   .idea/.rakeTasks&#10;&#9;modified:   .idea/blog.iml&#10;&#9;modified:   .idea/workspace.xml&#10;&#9;modified:   app/views/layouts/application.html.erb&#10;#&#10;">
+      <created>1389951934822</created>
+      <updated>1389951934822</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1367,7 +1394,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/baskets.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="207" />
+        <state line="3" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="207">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/guestbooks.js">
@@ -1417,13 +1446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="20" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1196">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="943">
@@ -1431,16 +1453,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="21" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="1219">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2281" column="0" selection-start="43500" selection-end="43500" vertical-scroll-proportion="0.0" vertical-offset="52267" max-vertical-offset="137402">
+        <state line="7683" column="1" selection-start="139178" selection-end="139178" vertical-scroll-proportion="0.0" vertical-offset="176374" max-vertical-offset="176847">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="692" selection-end="692" vertical-scroll-proportion="0.30110496" vertical-offset="420" max-vertical-offset="1173">
+        <state line="1" column="0" selection-start="16" selection-end="23" vertical-scroll-proportion="0.063535914" vertical-offset="0" max-vertical-offset="2300">
           <folding />
         </state>
       </provider>
