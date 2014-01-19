@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e93582-7058-43d4-b6f5-e91599883f71" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,7 +76,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="815" selection-end="815" vertical-scroll-proportion="0.8729282" vertical-offset="190" max-vertical-offset="2300">
+            <state line="22" column="0" selection-start="780" selection-end="780" vertical-scroll-proportion="0.063535914" vertical-offset="483" max-vertical-offset="2277">
               <folding />
             </state>
           </provider>
@@ -1471,7 +1471,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="815" selection-end="815" vertical-scroll-proportion="0.8729282" vertical-offset="190" max-vertical-offset="2300">
+        <state line="22" column="0" selection-start="780" selection-end="780" vertical-scroll-proportion="0.063535914" vertical-offset="483" max-vertical-offset="2277">
           <folding />
         </state>
       </provider>
