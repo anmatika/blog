@@ -21,22 +21,22 @@
       <ul class="nav navbar-nav">
         <li class="active">
           <%= link_to root_path do %>
-              <i class="fa fa-home">Home</i>
+              <i class="fa fa-home"><%= t('home') %></i>
           <% end %>
         </li>
         <li>
           <%= link_to guestbooks_path do %>
-              <i class="fa fa-book">Guestbook</i>
+              <i class="fa fa-book"><%= t('guestbook') %></i>
           <% end %>
         </li>
         <li>
           <%= link_to posts_path do %>
-              <i class="fa fa-envelope">Posts</i>
+              <i class="fa fa-envelope"><%= t('posts') %></i>
           <% end %>
         </li>
         <li>
           <%= link_to products_path do %>
-              <i class="fa fa-truck">Products</i>
+              <i class="fa fa-truck"><%= t('products') %></i>
           <% end %>
         </li>
       </ul>
