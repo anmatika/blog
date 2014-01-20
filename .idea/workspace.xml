@@ -113,7 +113,7 @@
       <file leaf-file-name="home.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="10" selection-start="205" selection-end="205" vertical-scroll-proportion="0.40862945" vertical-offset="0" max-vertical-offset="394">
+            <state line="4" column="16" selection-start="141" selection-end="141" vertical-scroll-proportion="0.23350254" vertical-offset="0" max-vertical-offset="394">
               <folding />
             </state>
           </provider>
@@ -1163,7 +1163,11 @@
       <created>1390196844774</created>
       <updated>1390196844774</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;# On branch master&#10;# Your branch is ahead of 'origin/master' by 1 commit.&#10;#&#10;# Changes to be committed:&#10;#   (use &quot;git reset HEAD &lt;file&gt;...&quot; to unstage)&#10;#&#10;&#9;modified:   .idea/workspace.xml&#10;&#9;modified:   Gemfile&#10;&#9;modified:   Gemfile.lock&#10;#&#10;">
+      <created>1390196902431</created>
+      <updated>1390196902431</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1500,7 +1504,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="205" selection-end="205" vertical-scroll-proportion="0.40862945" vertical-offset="0" max-vertical-offset="394">
+        <state line="4" column="16" selection-start="141" selection-end="141" vertical-scroll-proportion="0.23350254" vertical-offset="0" max-vertical-offset="394">
           <folding />
         </state>
       </provider>
