@@ -14,6 +14,7 @@
  *= require colorbox
  *= require bootstrap
  *= require offcanvas
+ *= require font-awesome
  */
 nav{
 	float: left;

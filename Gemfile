@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# otherwise styles will be missing on heroku
+# http://viget.com/extend/fixing-missing-assets-with-rails-4-on-heroku
 group :production do
   gem 'rails_12factor'
 end
@@ -34,10 +36,10 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
-end
+end#gem 'font-awesome-rails'
 
 gem 'rmagick', '2.13.2'
-
+gem "font-awesome-rails", "~> 4.0.3.1"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
