@@ -59,18 +59,11 @@
     <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
       <div class="list-group">
         <%= link_to root_path, class: 'list-group-item' do %>
-            <i class="fa fa-home">Home</i>
+            <i class="fa fa-home"><%= t('home') %></i>
         <% end %>
-        <%= link_to guestbooks_path, class: 'list-group-item' do %>
-            <i class="fa fa-book">Guestbook</i>
+        <%= link_to links_path, class: 'list-group-item' do %>
+            <i class="fa fa-tags"><%= t('links') %></i>
         <% end %>
-        <%= link_to posts_path, class: 'list-group-item' do %>
-            <i class="fa fa-envelope">Posts</i>
-        <% end %>
-        <%= link_to products_path, class: 'list-group-item' do %>
-            <i class="fa fa-truck">Products</i>
-        <% end %>
-
 
       </div>
     </div>

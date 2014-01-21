@@ -1,4 +1,6 @@
 Blog::Application.routes.draw do
+
+  get 'links', to: 'links#index'
   resources :baskets
 
   resources :products do

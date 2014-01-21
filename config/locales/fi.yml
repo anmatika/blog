@@ -27,6 +27,9 @@ fi:
   products: "Tuotteet"
   message: "Viesti"
   name: "Nimi"
+  links: "Linkit"
+
+
   date:
     abbr_day_names:
     - su
