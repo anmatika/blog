@@ -1,6 +1,6 @@
 <div id="links">
   <div class="jumbotron">
-    <h1>Links</h1>
+    <h1><%= t('links') %></h1>
     Koottu sekalaisia linkkejä.
   </div>
   <div class="row">
@@ -9,6 +9,7 @@
       <%= link_to "http://stackoverflow.com/questions/4161357/how-do-i-reverse-a-rails-generate", class: 'list-group-item' do %>
           Reverse scaffolding
       <% end %>
+      <%= link_to "Page specific javascripts", "http://stackoverflow.com/a/7033057", class: 'list-group-item' %>
     </div>
     <div class="col-6 col-sm-6 col-lg-4">
       <span class="label label-primary">Linux</span>
