@@ -14,7 +14,7 @@
  *= require colorbox
  *= require bootstrap
  *= require offcanvas
- *= require font-awesome
+ *= require font-awesome.css.erb
  */
 nav{
 	float: left;

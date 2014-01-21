@@ -1,3 +1,16 @@
-<h1>Links</h1>
+<div id="links">
+  <h1>Links</h1>
 
-<%= link_to "Rails: Reverse scaffolding", "http://stackoverflow.com/questions/4161357/how-do-i-reverse-a-rails-generate" %>
+  <%= link_to "http://stackoverflow.com/questions/4161357/how-do-i-reverse-a-rails-generate", class: 'list-group-item' do %>
+      Rails: Reverse scaffolding
+  <% end %>
+
+  <%= link_to "http://www.linuxquestions.org/questions/linux-general-1/changing-owner-of-a-directory-recursively-284767/", class: 'list-group-item' do %>
+      <i class="fa fa-linux">Linux: Change folder owner recursively</i>
+  <% end %>
+
+  <%= link_to "http://www.howtogeek.com/howto/ubuntu/see-which-groups-your-linux-user-belongs-to/", class: 'list-group-item' do %>
+      <i class="fa fa-linux">Linux: Check user group</i>
+  <% end %>
+
+</div>

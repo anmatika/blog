@@ -39,7 +39,7 @@ group :doc do
 end
 
 gem 'rmagick', '2.13.2'
-gem "font-awesome-rails", "~> 4.0.3.1"
+#gem "font-awesome-rails", "~> 4.0.3.1"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
