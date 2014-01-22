@@ -25,7 +25,7 @@
           <% end %>
         </li>
         <li>
-          <%= link_to guestbooks_path do %>
+          <%= link_to guestbooks_path, 'data-no-turbolink' => true  do %>
               <i class="fa fa-book"><%= t('guestbook') %></i>
           <% end %>
         </li>
