@@ -1,11 +1,9 @@
 (function ($) {
-   $(document).ready(function() {
-       $('#guestbookMessages').dataTable({
-           "bPaginate": false,
-           "bLengthChange": false,
-           "bFilter": true,
-           "bInfo": false,
-           "bAutoWidth": false
-       });
+   $('#guestbookMessages').dataTable({
+       "bPaginate": false,
+       "bLengthChange": false,
+       "bFilter": true,
+       "bInfo": false,
+       "bAutoWidth": false
    });
 }(jQuery));

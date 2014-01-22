@@ -28,8 +28,7 @@ fi:
   message: "Viesti"
   name: "Nimi"
   links: "Linkit"
-  home_introduction_text: "33-vuotias web-sovelluskehittäjä. Asuu Helsingissä. Kulkee alla olevalla McLaren MP4-12C:lla töihin - unissaan tosin.
-  Harrastaa maastopyöräilyä."
+  home_introduction_text: "33-vuotias web-sovelluskehittäjä. Asuu Helsingissä. Harrastaa maastopyöräilyä."
   new_guestbook_message: "Kirjoita vieraskirjaan"
   show: "Näytä"
   edit: "Muokkaa"

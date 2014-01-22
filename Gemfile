@@ -41,8 +41,9 @@ end
 gem 'rmagick', '2.13.2'
 #gem "font-awesome-rails", "~> 4.0.3.1"
 # Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
+#gem 'bcrypt-ruby', '~> 3.0.0'
+#gem "bcrypt-ruby", :require => "bcrypt"
+gem 'bcrypt-ruby', require: 'bcrypt'
 # Use unicorn as the app server
 # gem 'unicorn'
 
