@@ -6,10 +6,14 @@ class UsersController < ApplicationController
   def create
     @user = User.create(user_params)
     if @user.save
-      redirect_to home_index_path, :notice => "signed up!"
+      redirect_to user_path(@user), :notice => "signed up!"
     else
       render new
     end
+  end
+
+  def show
+
   end
 
   private

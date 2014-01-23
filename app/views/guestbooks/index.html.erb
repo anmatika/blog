@@ -17,8 +17,8 @@
         <td><%= guestbook.message %></td>
         <td><%= guestbook.name %></td>
         <td><%= link_to t('show'), guestbook, class: 'btn btn-info' %></td>
-        <td><%= link_to t('edit'), edit_guestbook_path(guestbook), class: 'btn btn-info' %></td>
-        <td><%= link_to t('destroy'), guestbook, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-warning' %></td>
+        <td><%=  link_to t('edit'), edit_guestbook_path(guestbook), class: 'btn btn-info' if current_user != nil && current_user.is_admin %></td>
+        <td><%= link_to t('destroy'), guestbook, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-warning' if current_user != nil && current_user.is_admin %></td>
       </tr>
     <% end %>
   </tbody>
