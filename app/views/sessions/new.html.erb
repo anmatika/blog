@@ -1,4 +1,11 @@
 <h1>Log in</h1>
+
+<% flash.each do |key, value| %>
+    <div class="<%= flash_class(key) %>">
+      <%= value %>
+    </div>
+<% end %>
+
 <%= form_tag sessions_path do %>
     <p>
       <%= label_tag :email %><br />
@@ -9,5 +16,7 @@
       <%= password_field_tag :password %>
     </p>
     <p class="button"><%= submit_tag "Log in" %></p>
+
+
 <% end %>
 

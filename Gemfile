@@ -6,6 +6,14 @@ group :production do
   gem 'rails_12factor'
 end
 
+group :test, :development do
+  #gem 'turn'
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'guard-rspec'
+  gem 'launchy'
+end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 

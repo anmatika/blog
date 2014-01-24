@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+
   def new
     @user = User.new
   end
@@ -8,7 +9,9 @@ class UsersController < ApplicationController
     if @user.save
       redirect_to user_path(@user), :notice => "signed up!"
     else
-      render new
+     # render new
+      flash[:error] = "User save failed"
+      redirect_to :back
     end
   end
 
