@@ -33,6 +33,7 @@ fi:
   show: "Näytä"
   edit: "Muokkaa"
   destroy: "Poista"
+  sign_up: "Rekisteröidy"
 
   date:
     abbr_day_names:
