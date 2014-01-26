@@ -22,19 +22,9 @@
           <% end %>
         </li>
       </ul>
-      <ul class="nav navbar-nav pull-right">
-        <li>
-          <% if current_user %>
-              Logged in as <%= current_user.email %>
-              <%= link_to "Log out", log_out_path %>
-          <% else %>
-              <%= link_to "Sign up", sign_up_path %>
-          <% end %>
-        </li>
-        <li>
-          <%= link_to "log in", log_in_path %>
-        </li>
-      </ul>
+
+      <%= render 'layouts/log_in' %>
+
     </div>
     <!-- /.nav-collapse -->
   </div>
